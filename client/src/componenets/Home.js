@@ -15,7 +15,7 @@ function Home() {
   // POST method to send data to the backend
   const postRequest = async (data) => {
     try {
-      const response = await axios.post("http://localhost:3001/bfhl", data); // Sending parsed JSON
+      const response = await axios.post("https://bajaj-server-orpin.vercel.app/bfhl", data); // Sending parsed JSON
       setResponseData(response.data); // Set response data from backend
     } catch (err) {
       setError("Invalid JSON or server error.");
