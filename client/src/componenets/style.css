@@ -1,0 +1,50 @@
+.Home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: xx-large;
+  }
+  
+  .Home textarea {
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    font-size: large;
+  }
+  
+  .Home button {
+    padding: 10px 20px;
+    font-size: large;
+    cursor: pointer;
+  }
+  
+  .Home select {
+    width: 400px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    font-size: large;
+    padding: 10px;
+  }
+  
+  .Home .error {
+    color: red;
+  }
+  
+  .Home pre {
+    font-size: large;
+    white-space: pre-wrap; /* Ensure line breaks are displayed */
+    text-align: left; /* Align text to the left */
+  }
+   
+  .Home form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+  }
+  .Home form button {
+    color: blue;
+    border: none;
+  }
+  
